@@ -5,74 +5,90 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/345cc50557.js" crossorigin="anonymous"></script>
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 	<title>Abhinish</title>
 
-<style type="text/css">
-	.navbar-brand{
-		font-family: Roboto;
+	<style type="text/css">
+		.navbar-brand{
+			font-family: Roboto;
+		}
+
+		.nav-item{
+			font-family: Georgia;
+		}
+
+		.bg{
+			background-color: #0D0D0D;
+		}
+		.githubcolor{
+			color: #211F1F;
+		}
+		.githubcolorfoot{
+			color: #ffffff;
+		}
+		.hackerrankcolor{
+			color: #1BA449;
+		}
+		.discordcolor{
+			color: #738ADB;
+		}
+		.facebookcolor{
+			color: #3b5998;
+		}
+		.instagramcolor{
+			color: #DD2A7B;
+		}
+		.linkedincolor{
+			color: #0e76a8; 
+		}
+		.blog-footer{
+			background-color: #0D0D0D;
+			padding-top: 70px;
+		}
+
+		.input{
+			position: relative;
+			margin: auto;
+			width: 100%;
+			max-width: 300px;
+			border: 0;
+			border-radius: 30px;
+			overflow: hidden;
+			-webkit-appearance: none;
+		    appearance: none;
+		    padding: 4px 4px 4px 10px;
+		    height: 45px;
+		    font-size: 16px;
+		    font-weight: 400;
+		    outline: none;
+		}
+	  	
+	  	.footer-text{
+	  		color: #ffffff;
+	  		font-family: Georgia;
+	  		margin-bottom: 0;
+	  	}
+
+		  /* Hide the links inside the navigation menu (except for logo/home) */
+	.topnav #myLinks {
+	  display: none;
 	}
 
-	.nav-item{
-		font-family: Georgia;
+	/* Style navigation menu links */
+	.topnav a {
+	  color: white;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  display: block;
 	}
 
-	.bg{
-		background-color: #0D0D0D;
-	}
-	.githubcolor{
-		color: #211F1F;
-	}
-	.githubcolorfoot{
-		color: #ffffff;
-	}
-	.hackerrankcolor{
-		color: #1BA449;
-	}
-	.discordcolor{
-		color: #738ADB;
-	}
-	.facebookcolor{
-		color: #3b5998;
-	}
-	.instagramcolor{
-		color: #DD2A7B;
-	}
-	.linkedincolor{
-		color: #0e76a8; 
-	}
-	.footer{
-		
-	}
-	.blog-footer{
-		background-color: #0D0D0D;
-		padding: 70px;
-	}
-
-	.input{
-		position: relative;
-		margin: auto;
-		width: 100%;
-		max-width: 300px;
-		border: 0;
-		border-radius: 30px;
-		overflow: hidden;
-		-webkit-appearance: none;
-	    appearance: none;
-	    padding: 4px 4px 4px 10px;
-	    height: 45px;
-	    font-size: 16px;
-	    font-weight: 400;
-	    outline: none;
-	}
-  	
-  	.footer-text{
-  		color: #ffffff;
-  		font-family: Georgia;
-  		margin-bottom: 0;
-  	}
-</style>
+	</style>
 </head>
-
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg">
 		  <a class="navbar-brand" href="#">Abhinish Sharma</a>
@@ -119,11 +135,12 @@
 			<center>
 				<h5 class="footer-text">If you want to drop a messaage or say something, I'm all ears!</h5>
 				<br>
-				<input type="mail" name="mail" placeholder="Drop your messaage" class="input">
-				<a class="btn btn-outline-success my-2 my-sm-0" ><p class="footer-text">Submit</p></a>
+				<input type="text" name="Message" id="Message" placeholder="Drop your message" class="input">
+				<a class="btn btn-outline-success my-2 my-sm-0" id="Submit" ><p class="footer-text">Submit</p></a>
 			</center>
 			<br>
-			<div class="row row-cols-2">
+			<div class="container">
+				<div class="row row-cols-1">
 			    <div class="col">
 			    	<div class="card-body">
 						    <h6 class="card-title footer-text">Contact: 9491674254, 7894964369</h6>
@@ -144,13 +161,64 @@
 						    </a>
 						</div>
 			    </div>
-			    <div class="col">
-			    	
-			    </div>
-		 	</div>			
+			 	</div>
+			</div>
+			 <div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="copyright text-md-left text-center pt-15">
+							<p style="color: #F0FFFF;">&copy; Copyrights 2020 Abhinish Sharma, All Rights Reserved. </p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="copyright text-md-right text-center pt-15">
+							<p style="color: #F0FFFF;"><i class="em em-computer" aria-role="presentation" aria-label="PERSONAL COMPUTER"></i> with <i class="em em-heart" aria-role="presentation" aria-label="HEAVY BLACK HEART"></i> by <span>Abhinish</span> </p>
+						</div>
+					</div>
+				</div> <!-- row -->
+			 </div>
+			 <br>
 		</footer>
+
+		
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-database.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-analytics.js"></script>
+
+		<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyBwEBSWGl1tRKF_6ug6cQ3xpBo4IZomidk",
+			authDomain: "my-blog-f4902.firebaseapp.com",
+			databaseURL: "https://my-blog-f4902.firebaseio.com",
+			projectId: "my-blog-f4902",
+			storageBucket: "my-blog-f4902.appspot.com",
+			messagingSenderId: "182380815302",
+			appId: "1:182380815302:web:735a224ae28181837608c7",
+			measurementId: "G-45XF5B0R7E"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+		</script>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="/__/firebase/7.14.3/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="/__/firebase/7.14.3/firebase-analytics.js"></script>
+
+		<!-- Initialize Firebase -->
+		<script src="/__/firebase/init.js"></script>
+
+		<script src="main.js"></script>
 	</body>
 </html>
 
