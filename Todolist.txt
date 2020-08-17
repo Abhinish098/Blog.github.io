@@ -1,0 +1,25 @@
+FOR ALL
+
+* Remove "Talk to me!" X
+* Lower the header and cover the screen with 1st phase
+* Fix footer size
+
+MAIN PAGE
+
+* Remove coming soon X
+* Rebuild the trunk by replacing with a 3 slider 
+	- Resume
+	- About me
+	- Contact me
+
+PROJECTS & ACHIEVEMENT
+
+* Achievement's tab stay on it when refreshed
+
+WRITING
+
+* Implement a like button and connect to the database
+
+GAMES
+
+* remove the one liner X

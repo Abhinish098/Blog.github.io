@@ -59,10 +59,10 @@
 			background-color: #000000;
 		}
 		.githubcolor{
-			color: #211F1F;
+			color: #d3d3d3;
 		}
 		.githubcolorfoot{
-			color: #ffffff;
+			color: #d3d3d3;
 		}
 		.hackerrankcolor{
 			color: #1BA449;
@@ -135,10 +135,15 @@
 		background-color: #000000;
 	}
 
+	.container-middle{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
 	@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap');
 
 
-		.container {
+		.container-main {
 		  overflow:hidden;
 		  justify-content: center;
 		  padding: 0 3rem;
@@ -220,14 +225,10 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="Games.html">Games</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">COMING SOON</a>
-		      </li>
 		    </ul>
 		    <form class="form-inline my-2 my-lg-0">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">TALK TO ME!</button>
 		      <p>&nbsp&nbsp&nbsp</p>
-		      <a class="btn btn-outline-success my-2 my-sm-0" href="Resume_Abhinish.pdf" download target="_blank">DOWNLOAD MY RESUME!</a>
+		      <a class="btn btn-outline-success my-2 my-sm-0" href="Resume_Abhinish_Classic.pdf" download target="_blank">DOWNLOAD MY RESUME</a>
 		    </form>
 		  </div>
 		</nav>
@@ -241,6 +242,32 @@
 			      		<span class="txt-type" data-wait="1500" data-words='["Developer", "Student", "Learner"]'></span>
 				    	</h1>
 				   	 	<h2 style="color: #d3d3d3">If something is important enough, even if you are scared, you will keep going<br><span style="float: right;">- Elon Musk</span></h2>
+				   	 	<div class="container-fluid invi" style="height: 100vh;">
+							<div class="row row-cols-1 invi" style="color: #d3d3d3">
+								<div class="card invi" style="width: 100%;">
+									<div class="card-body invi">
+									    <a href="https://github.com/Abhinish098" target="_blank">
+									  	  	<i class="fab fa-github-square fa-3x githubcolor">&nbsp</i>
+									    </a>
+									    <a href="https://www.hackerrank.com/abhinish098" target="_blank">
+										  	<i class="fab fa-hackerrank fa-3x hackerrankcolor">&nbsp</i>
+									   </a>
+									   <a href="https://invite.gg/vyp3r" target="_blank">
+										  	<i class="fab fa-discord fa-3x discordcolor">&nbsp</i>
+									    </a>
+									    <a href="https://www.linkedin.com/in/abhinish-sharma-13a544173/" target="_blank">
+										  	<i class="fab fa-linkedin fa-3x linkedincolor">&nbsp</i>
+									    </a>
+									    <a href="https://www.instagram.com/abhinish_sharma/" target="_blank">
+										  	<i class="fab fa-instagram-square fa-3x instagramcolor">&nbsp</i>
+									    </a>
+									    <a href="https://www.facebook.com/abhinishq9a6z3" target="_blank">
+										  	<i class="fab fa-facebook-square fa-3x facebookcolor">&nbsp</i>
+									    </a>
+									</div>
+								</div>
+							</div>
+						</div>
 				    </div>
 				    <div class="col-md-6 invi">
 		        		<img src="img/Shadowlazer2.png" alt="An image was supposed to be here.....well lemme know I'll fix it" style="float: right;">
@@ -259,31 +286,6 @@
 								  <center>
 									<img src="img\DP.jpg" class="card-img-top" alt="An image was supposed to be here.....well lemme know I'll fix it" style='width: 50%; object-fit: contain'>
 								  </center>
-								  <div class="card-body invi">
-									  <!-- <h5 class="card-title">Yep that's me.</h5>
-									  <h6 class="card-title">You have stumbled upon Banana eating Ash-kun</h6> -->
-									  <p class="card-text">Oh btw I'm on these aswell you can find me almost anywhere.</p>
-									  <a href="https://github.com/Abhinish098" target="_blank">
-										  <i class="fab fa-github-square fa-3x githubcolor">&nbsp</i>
-									  </a>
-									  <a href="https://www.hackerrank.com/abhinish098" target="_blank">
-										  <i class="fab fa-hackerrank fa-3x hackerrankcolor">&nbsp</i>
-									  </a>
-									  <a href="https://discord.com/channels/655064184643387402/655064185096503308" target="_blank">
-										  <i class="fab fa-discord fa-3x discordcolor">&nbsp</i>
-									  </a>
-									  <a href="https://www.linkedin.com/in/abhinish-sharma-13a544173/" target="_blank">
-										  <i class="fab fa-linkedin fa-3x linkedincolor">&nbsp</i>
-									  </a>
-									  <a href="https://www.instagram.com/abhinish_sharma/" target="_blank">
-										  <i class="fab fa-instagram-square fa-3x instagramcolor">&nbsp</i>
-									  </a>
-									  <a href="https://www.facebook.com/abhinishq9a6z3" target="_blank">
-										  <i class="fab fa-facebook-square fa-3x facebookcolor">&nbsp</i>
-									  </a>
-									  <br><br>
-									  <h6 class="card-title">And if you want to explore my projects you can <a href="PandA.html">Click Here!</a></h5>
-								  </div>
 							  </div>
 						  </div>
 						  <div class="col invi">
@@ -305,9 +307,7 @@
 				<h5 class="footer-text">If you want to drop a messaage or say something, I'm all ears!</h5>
 				<br>
 				<input type="text" name="Message" id="Message" placeholder="Drop your message" class="input">
-				<a class="btn btn-outline-success my-2 my-sm-0" id="Submit" >
-					<p class="footer-text">Submit</p>
-				</a>
+				<a class="btn btn-outline-success my-2 my-sm-0" id="Submit" ><p class="footer-text">Submit</p></a>
 			</center>
 			<br>
 			<div class="container">
@@ -318,7 +318,7 @@
 						    <h6 class="card-title footer-text">E-mail: <a>abhinish098@gmail.com</a></h6>
 						    <h6 class="card-title footer-text">College E-mail: <a>1806005@kiit.ac.in</a></h6>
 						    <br>
-						    <a href="https://discord.com/channels/655064184643387402/655064185096503308" target="_blank">
+						    <a href="https://invite.gg/vyp3r" target="_blank">
 						    	<i class="fab fa-discord fa-2x discordcolor">&nbsp</i>
 						    </a>
 						    <a href="https://www.linkedin.com/in/abhinish-sharma-13a544173/" target="_blank">
@@ -334,7 +334,7 @@
 			    </div>
 			 	</div>
 			</div>
-			 <div class="container">
+			 <div class="container-middle">
 				<div class="row">
 					<div class="col-md-8">
 						<div class="copyright text-md-left text-center pt-15">
