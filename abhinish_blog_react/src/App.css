@@ -1,0 +1,172 @@
+body{
+    background-color: #000000;
+}
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+
+.container{
+    margin-right: 0rem;
+    margin-left: 0rem;
+}
+
+.container.invi{
+    margin-right: 0px;
+}
+
+.navbar-brand{
+    font-family: Roboto;
+}
+
+.nav-item{
+    font-family: Georgia;
+}
+
+.bg{
+    background-color: #000000;
+}
+.githubcolor{
+    color: #d3d3d3;
+}
+.githubcolorfoot{
+    color: #d3d3d3;
+}
+.hackerrankcolor{
+    color: #1BA449;
+}
+.discordcolor{
+    color: #738ADB;
+}
+.facebookcolor{
+    color: #3b5998;
+}
+.instagramcolor{
+    color: #DD2A7B;
+}
+.linkedincolor{
+    color: #0e76a8; 
+}
+.blog-footer{
+    background-color: #000000;
+    padding-top: 70px;
+}
+
+.input{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    border: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 4px 4px 4px 10px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+  
+  .footer-text{
+      color: #ffffff;
+      font-family: Georgia;
+      margin-bottom: 0;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.invi{
+background-color: transparent;
+}
+
+.carousel-item{
+background-color: #000000;
+}
+
+.container-middle{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&display=swap');
+
+
+.container-main {
+  overflow:hidden;
+  justify-content: center;
+  padding: 0 3rem;
+}
+
+.font-special{
+    font-family: 'Orbitron', sans-serif;
+      font-family: 'Press Start 2P', cursive;
+}
+
+h1, h2 {
+  font-weight: 60;
+  margin: 0.4rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 12.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media(min-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 400px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+}
+
+@media(max-width: 250px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 0.5rem;
+  }
+}
