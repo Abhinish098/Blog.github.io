@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Abhinish098/Blog.github.io#readme",
   "dependencies": {
-    "firebase-admin": "^8.12.1"
+    "firebase-admin": "^9.2.0"
   }
 }

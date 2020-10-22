@@ -16,6 +16,9 @@ firebase-debug.log*
 # it commented so all members can deploy to the same project(s) in .firebaserc.
 # .firebaserc
 
+node_modules/
+abhinish_blog_react/
+
 # Runtime data
 pids
 *.pid
